@@ -16,6 +16,8 @@ const authRoutes = require('./routes/auth.routes');
 const fileRoutes = require('./routes/file.routes');
 app.use('/api/auth', authRoutes);
 app.use('/api/files', fileRoutes);
+const aiRoutes = require('./routes/ai.routes');
+app.use('/api/ai', aiRoutes);
 
 // Test route
 app.get('/', (req, res) => {
