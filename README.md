@@ -58,7 +58,7 @@ npm install
 
 ### 3. Setup environment variables
 ```bash
-# .env file banao aur yeh variables add karo:
+# .env file
 DATABASE_URL="your_neon_postgresql_url"
 JWT_SECRET="your_jwt_secret"
 CLOUDINARY_CLOUD_NAME="your_cloud_name"
